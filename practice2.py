@@ -1,2 +1,3 @@
-for i in range(1,6):
-    print("*"*i)
+
+name = input("Enter you name: ")
+print("Nice to meet you",name)

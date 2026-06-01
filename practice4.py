@@ -1,12 +1,3 @@
-Temperature = 40
+Age=input("Enter you age:")
 
-if Temperature>= 35:{
-    print("it's very hot in the philippines")
-}
-elif Temperature>=25:{
-    print("finally we have experience a normal weather today")
-}
-
-else:{
-    print("it's very cold today")
-}
+print("you're one year older than me",Age)

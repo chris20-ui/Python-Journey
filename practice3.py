@@ -1,12 +1,4 @@
-Grade = 99
+Name = input("Enter your name: ")
 
-if Grade>=90:{
-  print("You' Amazing")  
-}
-elif Grade>=60:{
-    print("You Passed")
-}    
+print("Nice to meet you",Name)
 
-else:{
-    print("You fail :<")
-}

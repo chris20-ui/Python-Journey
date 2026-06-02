@@ -1,7 +1,3 @@
-import calendar
+name = input("Enter you name: ")
 
-year = 2026
-
-month = 5
-
-print(calendar.month(year,month))
+print("Nice to meet you",name)

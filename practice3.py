@@ -1,4 +1,2 @@
-Name = input("Enter your name: ")
-
-print("Nice to meet you",Name)
-
+for i in range(1,6):
+    print("*"*i)

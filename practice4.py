@@ -1,3 +1,2 @@
-Age=input("Enter you age:")
-
-print("you're one year older than me",Age)
+Age = input("Enter you age: ")
+print("were same age ",Age)

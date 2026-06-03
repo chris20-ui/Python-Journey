@@ -1,8 +1,11 @@
-score = 90
+Grade = 99
 
-if score>=90:
-    print("Congrats you're an  Achiever")
-elif score>=60:
+if Grade>=90:{
+  print("Congrats you're an Achiever")
+}
+elif Grade>=60:{
     print("You Passed")
-else:
-    print("You Failed")
+}
+else:{
+    print("You fail")
+}

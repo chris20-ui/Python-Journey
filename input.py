@@ -1,2 +1,3 @@
-Age=input("Enter you Age: ")
-print("were same ",Age)
+Name = input("Enter your name: ")
+
+print("nice to meet you",Name)

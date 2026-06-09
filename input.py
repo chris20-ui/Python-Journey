@@ -1,3 +1,2 @@
-Name = input("Enter your name: ")
-
-print("nice to meet you",Name)
+Age=input("Enter your Age:")
+print("ohh really were same age then",Age)

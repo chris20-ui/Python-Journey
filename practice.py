@@ -1,16 +1,15 @@
 import bcrypt
 
-username = input("Create Username ")
+username = input("Create username: ")
 
-password = input("Create Password ")
+password = input("Create Password: ")
 
-
-hashed_password=bcrypt.hashpw(
+hashed_password = bcrypt.hashpw(
     password.encode("utf-8"),
     bcrypt.gensalt()
 )
 
-print("\n Account Creation Success")
+print("\n Successful Account Created")
 
 print("Username: ",username)
 print("Password: ",hashed_password)
